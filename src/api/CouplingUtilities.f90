@@ -818,7 +818,7 @@ end subroutine SetGibbsMinCheck
 
 subroutine InitThermoAPI
 
-  USE ModuleThermoTolerance, ONLY: SetMachineDefaultTolerances, ApplyToleranceOverride
+  USE ModuleThermoTolerance, ONLY: ApplyToleranceOverride
 
   implicit none
 
